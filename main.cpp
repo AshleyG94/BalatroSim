@@ -1,11 +1,13 @@
 #include "Card.hpp"
 #include "Deck.hpp"
 #include "Hand.hpp"
+#include "Game.hpp"
 
 int main(){
 
-    
-    bool have_a_flush = false;
+    GAME game;
+    game.play_using_fall_method();
+    /*bool have_a_flush = false;
     HAND::test_result flush_result;
 
     while ( !have_a_flush )
@@ -37,6 +39,6 @@ int main(){
     std::cout << "number of Clubs : " << suit_counts[1] << std::endl;
     std::cout << "number of Hearts : " << suit_counts[2] << std::endl;
     std::cout << "number of Diamonds : " << suit_counts[3] << std::endl;
-    return 0;
+    return 0;*/
 
 }
